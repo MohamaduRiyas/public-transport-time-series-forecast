@@ -244,7 +244,7 @@ ARIMA provides reliable **short-term passenger demand** forecasting.
 
 **Name:** MOHAMADU RIYAS S
 **Role:** Data Science
-**GitHub:** *(Add your link)*
+**GitHub:** *https://github.com/MohamaduRiyas/public-transport-time-series-forecast*
 **Tools:** Python | EDA | Time Series | ARIMA
 
 ---

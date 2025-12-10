@@ -94,27 +94,27 @@ Displayed sample rows using `df.head()`:
 
 ##  Step 3: Basic Data Understanding
 
-### ✔ Shape
+###  Shape
 
 <img width="339" height="167" alt="image" src="https://github.com/user-attachments/assets/c7aa3b2d-bd30-4064-883d-c983c0f6d45e" />
 
-### ✔ Column names
+###  Column names
 
 <img width="790" height="210" alt="image" src="https://github.com/user-attachments/assets/98e65ed8-1a29-49d4-b6ca-9122bb0a341d" />
 
-### ✔ Data types
+###  Data types
 
 <img width="539" height="308" alt="image" src="https://github.com/user-attachments/assets/f9fc0355-2b7c-447d-bc30-98b73d742d82" />
 
-### ✔ Numeric summary
+###  Numeric summary
 
 <img width="1082" height="411" alt="image" src="https://github.com/user-attachments/assets/1cf3e7c9-aed3-4c46-a5aa-be042bbec6cc" />
 
-### ✔ Missing values
+###  Missing values
 
 <img width="324" height="301" alt="image" src="https://github.com/user-attachments/assets/90e7535b-bdb3-42fa-a160-0d2729819fc2" />
 
-### ✔ Duplicate check
+###  Duplicate check
 
 <img width="356" height="151" alt="image" src="https://github.com/user-attachments/assets/d5f4e056-47dd-4096-b9ed-733c4ddf973f" />
 
@@ -137,11 +137,11 @@ Performed:
 
 Performed:
 
-✔ Daily trend line plots
-✔ Distribution plots
-✔ Correlation heatmap
-✔ Multivariate analysis
-✔ Moving average trend analysis
+ Daily trend line plots
+ Distribution plots
+ Correlation heatmap
+ Multivariate analysis
+ Moving average trend analysis
 
 (Visuals include line plots, histograms, heatmaps, etc.)
 
@@ -175,11 +175,11 @@ Performed:
 
 Models were built for each service:
 
-### ✔ Local Route Forecast
+###  Local Route Forecast
 
 <img width="847" height="713" alt="image" src="https://github.com/user-attachments/assets/8e2ec1b9-32dd-47e1-a11f-20653de08733" />
 
-### ✔ Light Rail Forecast
+###  Light Rail Forecast
 
 <img width="758" height="703" alt="image" src="https://github.com/user-attachments/assets/d0f21091-9a29-4e65-bdd3-21918a91f615" />
 
@@ -230,11 +230,11 @@ Generated:
 
 This project demonstrates an end-to-end time series pipeline:
 
-✔ Data understanding
-✔ Cleaning
-✔ Visual EDA
-✔ ARIMA forecasting
-✔ Insights for decision-making
+ Data understanding
+ Cleaning
+ Visual EDA
+ ARIMA forecasting
+ Insights for decision-making
 
 ARIMA provides reliable **short-term passenger demand** forecasting.
 

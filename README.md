@@ -1,9 +1,9 @@
 
 ---
 
-# 🚍 Daily Public Transport Passenger Forecasting Using Time Series (ARIMA Model)
+#  Daily Public Transport Passenger Forecasting Using Time Series (ARIMA Model)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project performs **Exploratory Data Analysis (EDA)** and **7-day forecasting** of public transport passenger journeys using historical daily data. The aim is to understand transport usage patterns, derive meaningful insights, and build a predictive model that helps in **capacity planning**, **resource allocation**, and **transport optimization**.
 
@@ -23,7 +23,7 @@ This project is structured in two stages:
 
 ---
 
-# 🧠 Key Objectives
+#  Key Objectives
 
 * Understand transport passenger behavior over time
 * Identify trends, patterns, and correlations
@@ -33,7 +33,7 @@ This project is structured in two stages:
 
 ---
 
-# 📁 Dataset Information
+#  Dataset Information
 
 **File:**
 `Daily_Public_Transport_Passenger_Journeys_by_Service_Type_20250603.xls`
@@ -52,7 +52,7 @@ Each row represents **daily passenger count** for each service.
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 | Tool                 | Purpose                   |
 | -------------------- | ------------------------- |
@@ -66,13 +66,13 @@ Each row represents **daily passenger count** for each service.
 
 ---
 
-# 📊 Step-by-Step Workflow
+#  Step-by-Step Workflow
 
 This project follows the **CRISP-DM workflow**.
 
 ---
 
-## 🔹 Step 1: Import Libraries
+##  Step 1: Import Libraries
 
 Imported libraries for data handling, visualization, and forecasting.
 
@@ -80,7 +80,7 @@ Imported libraries for data handling, visualization, and forecasting.
 
 ---
 
-## 🔹 Step 2: Data Ingestion
+##  Step 2: Data Ingestion
 
 Loaded the dataset:
 
@@ -92,7 +92,7 @@ Displayed sample rows using `df.head()`:
 
 ---
 
-## 🔹 Step 3: Basic Data Understanding
+##  Step 3: Basic Data Understanding
 
 ### ✔ Shape
 
@@ -120,7 +120,7 @@ Displayed sample rows using `df.head()`:
 
 ---
 
-## 🔹 Step 4: Data Cleaning
+##  Step 4: Data Cleaning
 
 Converted Date column to datetime and set as index.
 
@@ -133,7 +133,7 @@ Performed:
 
 ---
 
-## 🔹 Step 5: Exploratory Data Analysis (EDA)
+##  Step 5: Exploratory Data Analysis (EDA)
 
 Performed:
 
@@ -147,9 +147,9 @@ Performed:
 
 ---
 
-## 🤖 Step 6: Model Selection – Why ARIMA?
+##  Step 6: Model Selection – Why ARIMA?
 
-### 📌 Chosen Model: **ARIMA (1,1,1)**
+###  Chosen Model: **ARIMA (1,1,1)**
 
 **ARIMA** is ideal for:
 
@@ -171,7 +171,7 @@ Performed:
 
 ---
 
-## 🔮 Step 7: Forecasting the Next 7 Days
+##  Step 7: Forecasting the Next 7 Days
 
 Models were built for each service:
 
@@ -197,26 +197,26 @@ Generated:
 
 ---
 
-# 📝 Key Insights (Very Easy English)
+#  Key Insights (Very Easy English)
 
-⭐ **1. Local Route has the highest passengers**, so it is used the most.
-📚 **2. School Service is very busy on weekdays** because of students.
-🏢 **3. Peak Service goes up and down**, linked to office travel.
-🚆 **4. Rapid Route is steady**, meaning consistent daily use.
-📈 **5. Many services rise and fall together**, showing similar patterns.
-
----
-
-# 📁 Repository Structure
-
-📦 Transport-Passenger-Forecasting
-┣ 📄 README.md
-┣ 📊 EDA.ipynb
-┗ 📄 .gitignore
+ **1. Local Route has the highest passengers**, so it is used the most.
+ **2. School Service is very busy on weekdays** because of students.
+ **3. Peak Service goes up and down**, linked to office travel.
+ **4. Rapid Route is steady**, meaning consistent daily use.
+ **5. Many services rise and fall together**, showing similar patterns.
 
 ---
 
-# 🚀 Real-World Applications
+#  Repository Structure
+
+ Transport-Passenger-Forecasting
+┣  README.md
+┣  EDA.ipynb
+┗  .gitignore
+
+---
+
+#  Real-World Applications
 
 * Public transport planning
 * Demand prediction
@@ -226,7 +226,7 @@ Generated:
 
 ---
 
-# 🎯 Conclusion
+#  Conclusion
 
 This project demonstrates an end-to-end time series pipeline:
 
@@ -240,7 +240,7 @@ ARIMA provides reliable **short-term passenger demand** forecasting.
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Name:** MOHAMADU RIYAS S
 **Role:** Data Science

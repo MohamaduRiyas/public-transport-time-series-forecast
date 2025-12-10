@@ -67,6 +67,8 @@ This project follows a standard **CRISP-DM (Data Mining) workflow**.
 
 ## 🔹 **Step 1: Import Libraries**
 Imported libraries required for data handling, visualization, and forecasting.
+<img width="332" height="116" alt="image" src="https://github.com/user-attachments/assets/ba0ae500-a3ad-448e-90b9-212e85818c6c" />
+
 
 ---
 
@@ -77,20 +79,41 @@ Loaded the dataset using:
 df = pd.read_excel("Daily_Public_Transport_Passenger_Journeys_by_Service_Type_20250603.xls")
 Sample rows were displayed using df.head() for initial inspection.
 
+<img width="748" height="306" alt="image" src="https://github.com/user-attachments/assets/4a884abb-d515-4191-9475-be28f2bc4ba8" />
+
+
 🔹 Step 3: Basic Data Understanding
 Performed:
 
 df.shape → Rows & columns
 
+<img width="339" height="167" alt="image" src="https://github.com/user-attachments/assets/c7aa3b2d-bd30-4064-883d-c983c0f6d45e" />
+
+
 df.columns → Column names
+
+<img width="790" height="210" alt="image" src="https://github.com/user-attachments/assets/98e65ed8-1a29-49d4-b6ca-9122bb0a341d" />
+
 
 df.dtypes → Data types
 
+<img width="539" height="308" alt="image" src="https://github.com/user-attachments/assets/f9fc0355-2b7c-447d-bc30-98b73d742d82" />
+
+
 df.describe() → Numeric stats
+
+<img width="1082" height="411" alt="image" src="https://github.com/user-attachments/assets/1cf3e7c9-aed3-4c46-a5aa-be042bbec6cc" />
+
 
 df.isna().sum() → Missing value check
 
+<img width="324" height="301" alt="image" src="https://github.com/user-attachments/assets/90e7535b-bdb3-42fa-a160-0d2729819fc2" />
+
+
 df.duplicated().sum() → Duplicate check
+
+<img width="356" height="151" alt="image" src="https://github.com/user-attachments/assets/d5f4e056-47dd-4096-b9ed-733c4ddf973f" />
+
 
 These steps help confirm dataset quality.
 
@@ -100,6 +123,8 @@ Performed the following operations:
 Converted Date column into datetime format
 
 Set Date as index:
+
+<img width="520" height="338" alt="image" src="https://github.com/user-attachments/assets/8edb5459-bcb2-4739-927a-5acebc8e6e08" />
 
 python
 Copy code
@@ -172,7 +197,13 @@ Forecasts were generated for:
 
 Local Route
 
+<img width="847" height="713" alt="image" src="https://github.com/user-attachments/assets/8e2ec1b9-32dd-47e1-a11f-20653de08733" />
+
+
 Light Rail
+
+<img width="758" height="703" alt="image" src="https://github.com/user-attachments/assets/d0f21091-9a29-4e65-bdd3-21918a91f615" />
+
 
 Peak Service
 

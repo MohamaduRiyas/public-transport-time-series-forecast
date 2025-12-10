@@ -197,7 +197,7 @@ Generated:
 
 ---
 
-#  Key Insights (Very Easy English)
+#  Key Insights 
 
  **1. Local Route has the highest passengers**, so it is used the most.
  **2. School Service is very busy on weekdays** because of students.
